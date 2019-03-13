@@ -13,6 +13,8 @@ docker logs <Container_Name>
 docker stop <Container_Name>
 docker inspect <Container_Name>
 docker commit -m "What did you do to the image" -a "Author Name" container-id repository/new_image_name
+docker tag <imageid><repositoryname>:<tagname>
+docker tag 0035a3de6392 firstdocker:wordpressdocker
 docker login -u <Docker_Username>
 docker images -a
 docker push Docker_Username/Repository:Tag
